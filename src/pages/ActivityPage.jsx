@@ -11,6 +11,7 @@ import TriviaPage from './activities/TriviaPage'
 import DisfracesPage from './activities/DisfracesPage'
 import BailePage from './activities/BailePage'
 import MonstruoPage from './activities/MonstruoPage'
+import NellaPage from './activities/NellaPage'
 // (Aquí importaremos TriviaPage y DisfracesPage cuando las hagamos)
 
 // Un componente simple para las páginas que aún no hacemos
@@ -67,7 +68,9 @@ function ActivityPage() {
       // Caso especial
       case 'ia-humano':
         return <IAHumanoPage />
-        
+
+      case 'nella':
+        return <NellaPage />
       // Casos futuros
       case 'disfraces':
         // Si el slug es 'disfraces', el admin ve resultados
