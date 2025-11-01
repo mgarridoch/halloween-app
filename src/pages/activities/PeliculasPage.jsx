@@ -9,11 +9,8 @@ function PeliculasPage() {
         Resultados de la votación (Top 5):
       </p>
       <ul style={{ lineHeight: 1.8 }}>
-        <li>1. El Conjuro</li>
-        <li>2. Hereditary</li>
-        <li>3. Viernes 13</li>
-        <li>4. La Monja</li>
-        <li>5. Actividad Paranormal 2</li>
+        <li>Con 2 votos, Get out</li>
+        <li>Todo el resto de las películas empatan con 1 voto cada una</li>
       </ul>
     </div>
   )
